@@ -1,0 +1,40 @@
+@import "./reset.css";
+
+*{
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: transparent;
+}
+
+img{
+  max-width: 100%;
+}
+
+.ab-layout{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.centerLayout{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pf-semibold{
+  font-family: PingFangSC-Semibold;
+}
+.pf-regular{
+  font-family: PingFangSC-Regular;
+}
+.pf-medium{
+  font-family: PingFangSC-Medium;
+}

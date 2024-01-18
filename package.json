@@ -1,0 +1,22 @@
+{
+  "name": "svelte-compos",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "story:dev": "histoire dev",
+    "story:build": "histoire build",
+    "story:preview": "histoire preview",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@histoire/plugin-svelte": "^0.17.8",
+    "@sveltejs/vite-plugin-svelte": "^3.0.1",
+    "histoire": "^0.17.8",
+    "less": "^4.2.0",
+    "svelte": "^4.2.8",
+    "vite": "^5.0.8"
+  }
+}
