@@ -3,6 +3,8 @@
 *{
   -webkit-tap-highlight-color: rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
+  text-align: left;
+
 }
 
 img{
@@ -29,12 +31,12 @@ img{
   white-space: nowrap;
 }
 
-.pf-semibold{
+.semibold{
   font-family: PingFangSC-Semibold;
 }
-.pf-regular{
+.regular{
   font-family: PingFangSC-Regular;
 }
-.pf-medium{
+.medium{
   font-family: PingFangSC-Medium;
 }
